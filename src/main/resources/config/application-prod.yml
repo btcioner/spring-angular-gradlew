@@ -23,7 +23,7 @@ spring:
         url: jdbc:postgresql://localhost:5432/soesmses
         name:
         username: postgres
-        password: soesoft
+        password: # here is your database password
     jpa:
         database-platform: com.soesoft.soesmses.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
